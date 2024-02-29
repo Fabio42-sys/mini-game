@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Acerte ou Perca</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Bem-vindo ao meu mini jogo</h1>
+    </header>
+
+    <main class="main">
+      <h3>Breve apresentação</h3>
+      <p>
+        Bem, eu sou um desenvolvedor front-end recém-formado e sou novo na
+        comunidade. Aqui tentarei criar um mini jogo divertido e interessante
+        sobre o desenvolvimento voltado para o lado do navegador.
+      </p>
+
+      <div class="screen" id="screen">
+        <p>Aqui será apresentado seu score!</p>
+      </div>
+
+      <button class="btn" id="init">Start!</button>
+
+      <div class="question-container">
+        <div class="question" id="questions">
+          <h3>Perguntas</h3>
+          <form id="questionsForm" class="questForm">
+            <label for="q1">JavaScript só pode ser usado no front-end?</label>
+            <input type="text" id="q1" name="q1" /><br /><br />
+
+            <label for="q2">React é uma linguagem de programação?</label>
+            <input type="text" id="q2" name="q2" /><br /><br />
+
+            <label for="q3">Front-end é voltado para o lado do servidor?</label>
+            <input type="text" id="q3" name="q3" /><br /><br />
+
+            <label for="q4"
+              >Utilizar design responsivo em um projeto é perda de tempo?</label
+            >
+            <input type="text" id="q4" name="q4" /><br /><br />
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <h2>Agradecimentos</h2>
+      <p>
+        Obrigado por jogar comigo hoje! Espero que tenha gostado do meu jogo!
+      </p>
+      <div class="link">
+      <h2>Links</h2>
+        <a href="https://github.com/Fabio42-sys"> Github </a>
+        <a href="https://www.linkedin.com/in/fabio-luiz-269501225/">
+          LinkedIn
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

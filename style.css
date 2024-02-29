@@ -163,24 +163,9 @@ body {
     gap: 10px;
 }
 
-.fa-github {
+.icons {
     width: 16px;
     height: 16px;
-    color: #000;
-}
-
-.fa-github:hover {
-    color: #fff;
-}
-
-.fa-linkedin-square {
-    width: 16px;
-    height: 16px;
-    color: blue;
-}
-
-.fa-linkedin-square:hover {
-    color: #fff;
 }
 
 .link a {
